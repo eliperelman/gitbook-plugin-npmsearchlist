@@ -1,0 +1,19 @@
+{
+  "title": "NPM Search List",
+  "name": "gitbook-plugin-npmsearchlist",
+  "description": "Embed a list of NPM search results",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "gitbook": ">=3.0.0"
+  },
+  "homepage": "eliperelman/gitbook-plugin-npmsearchlist",
+  "keywords": [
+    "gitbook:search"
+  ],
+  "repository": "eliperelman/gitbook-plugin-npmsearchlist",
+  "bugs": "eliperelman/gitbook-plugin-npmsearchlist/issues"
+}
