@@ -32,11 +32,11 @@ Replace `QUERY_PARAMETER` with a search query expression that matches the
 For example, to show packages where `sindresorhus` is the author:
 
 ```
-{% npmsearchlist "author:sindresorhus" %}{% endnpmsearchlist %}
+{% npmsearchlist "q=author:sindresorhus" %}{% endnpmsearchlist %}
 ```
 
 To filter by packages that are not deprecated:
 
 ```
-{% npmsearchlist "author:sindresorhus+not:deprecated" %}{% endnpmsearchlist %}
+{% npmsearchlist "q=author:sindresorhus+not:deprecated" %}{% endnpmsearchlist %}
 ```
